@@ -20,7 +20,7 @@ This repository contains the analysis of ecological data focusing on five specie
 - [License](#license)
 
 ## Introduction
-This project investigates the ecological data of five species, analyzing their distributions and relationships across various land classes. The study includes summary statistics, winsorised means, correlation analysis, and hypothesis testing, along with linear regression models to predict the richness of these species.
+This project investigates the ecological data of five species, analyzing their distributions and relationships across various land classes. The study includes summary statistics, winsorized means, correlation analysis, and hypothesis testing, along with linear regression models to predict the richness of these species.
 
 ## Data
 The data consists of measurements for Bees, Hoverflies, Isopods, Ladybirds, and Grasshoppers & Crickets across different land classes in Wales and specific locations in Scotland. The dataset includes:
@@ -68,7 +68,7 @@ The analysis was conducted using the following methods:
 - **t-test**: Suggested that the mean values of BD5 change and BD11 change are equal (p-value > 0.05).
 
 ### Linear Regression
-- **Simple Linear Regression**: Used Carabids as the response variable and ecological status 5 as the predictor variable. Found significant slope but low R-squared value.
+- **Simple Linear Regression**: Used Carabids as the response variable and ecological status 5 as the predictor variable. Found a significant slope but a low R-squared value.
 - **Multiple Linear Regression**: Initially included all five species, then refined the model by dropping Ladybirds and adding interaction terms. The final model showed improved R-squared and AIC values.
 
 ## Conclusion
